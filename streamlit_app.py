@@ -18,4 +18,5 @@ if st.button("Sign In"):
     st.write("Signing in...")
     if (username == 'Senal') and (password == 'S3N4L'):
         # If credentials are correct, show the "Hi" page
+        st.empty()
         st.markdown("<h1 style='text-align: center;'>Hi</h1>", unsafe_allow_html=True)
