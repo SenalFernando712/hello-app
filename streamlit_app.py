@@ -13,6 +13,9 @@ password = st.text_input("Password", type="password")
 if st.button("Sign In"):
     # Your sign-in logic goes here
     st.write("Signing in...")
+    if (username == 'Senal') && (password == 'S3N4L') :
+        st.write('Done')
+    
 
 
 
