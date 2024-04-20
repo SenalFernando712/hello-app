@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Create two columns layout
-col1, col2 = st.row(2)
+col1, col2 = st.coloums(2)
 
 # Username input field
 with col1:
