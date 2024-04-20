@@ -4,7 +4,7 @@ import streamlit as st
 st.markdown("<h1 style='text-align: center;'>Enter Your Credentials</h1>", unsafe_allow_html=True)
 
 # Create two columns layout
-col1, col2 = st.rows(2)
+col1, col2 = st.coloums(2)
 
 # Username input field
 with col1:
